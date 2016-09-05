@@ -1,0 +1,6 @@
+version: '2'
+
+services:
+  bitcoin:
+    build: .
+    command: sleep 3600
